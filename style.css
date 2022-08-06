@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar-side li{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.navbar-side a{
+    color: rgb(92, 91, 91) ;
+}
+
+.navbar-side li:hover{
+    border-radius: 10px 20px 10px 20px;
+    transition: .4s ease;
+
+}
+
+.slider-header{
+    width: 100%;
+    height: 600px;
+    background-image:url('./img/buildjpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.slider-header h1{
+    padding-top: 8%;
+    font-family: fantasy;
+    color: white;
+}
+
+.slider-header span{
+    color: orange;
+    text-shadow: 1px 1px 8px orange;
+}
+
+
