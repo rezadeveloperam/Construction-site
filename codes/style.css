@@ -122,6 +122,63 @@ color: rgb(255, 166, 0);
 
 
 
+.section-2 p{
+  color: orangered;
+}
+
+.section-2 i{
+    font-size: 60px;
+    color: #707070;
+}
+
+.btn-Counseling{
+    width: 150px;
+    height: 34px;
+    border: none;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+    transition: .3s ease;
+
+}
+.btn-Counseling:hover{
+    background-color: rgb(255, 123, 0);
+    transition: .3s ease;
+}
+
+.card-min{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 3px ;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card-min i{
+    font-size: 30px;
+    border-bottom: 3px solid orangered;
+    padding: 5px;
+    border-radius: 50%;
+    
+
+}
+
+.card-min p{
+    font-size: 16px;
+}
+
+.card-min-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-3 img{
+    margin-top: 3rem;
+    border-radius: 20px;
+}
+
 
 
 @media screen and (max-width:960px) {
