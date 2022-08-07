@@ -5,21 +5,25 @@
     
 }
 
+.container-nav{
+    background: linear-gradient(to left , rgb(165, 114, 48) 1%, rgb(45, 49, 94)90%);
+}
+
 .navbar-side li{
     width: 100px;
-    height: 40px;
+    height: 35px;
     text-align: center;
     padding: 10px;
     font-size: 14px;
-
+    margin: 10px;
 }
 
 .navbar-side a{
-    color: rgb(92, 91, 91) ;
+    color: rgb(255, 255, 255) ;
 }
 
 .navbar-side li:hover{
-    border-radius: 10px 20px 10px 20px;
+    border-radius: 0px 20px 0px 20px;
     transition: .4s ease;
 
 }
@@ -42,6 +46,46 @@
 .slider-header span{
     color: orange;
     text-shadow: 1px 1px 8px orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.btn-readmore{
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    border: 1px groove white;
+    margin-top: 30px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 10px 30px 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-readmore:hover{
+    border-radius: 10px 30px 10px 30px;
+    transition: .4s ease-out;
+    background:linear-gradient(to left , rgb(165, 114, 48) 1%, rgb(45, 49, 94)90%);
+    color: white;
+
+}
+
+.btn-readmore a{
+    color: white;
+}
+.btn-readmore a:hover{
+    color: white;
+}
+
+
+
+
 
 
