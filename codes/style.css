@@ -6,8 +6,10 @@
 }
 
 .container-nav{
+    height: 100px;
     background: linear-gradient(to left , rgb(165, 114, 48) 1%, rgb(45, 49, 94)90%);
 }
+
 
 .navbar-side li{
     width: 100px;
@@ -21,7 +23,10 @@
 .navbar-side a{
     color: rgb(255, 255, 255) ;
 }
-
+.navbar-side a:hover{
+    color: orange;
+    text-shadow: 1px 1px 20px orange;
+}
 .navbar-side li:hover{
     border-radius: 0px 20px 0px 20px;
     transition: .4s ease;
@@ -83,8 +88,85 @@
 .btn-readmore a:hover{
     color: white;
 }
+.icon-menu{
+    display: none
+}
+
+.icon-close{
+    display: none;
+}
 
 
+
+@media screen and (max-width:960px) {
+
+    .nav-list{
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        margin: 1rem;
+       
+    }
+
+    .nav-list li{
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    .container-nav{
+        width: 100%;
+        height: 100vh;
+        position:absolute;
+        left: -100%;
+        transition: .5s ease;
+        z-index: 98;
+    }
+    .icon-menu{
+        display: block;
+        border-radius: 10px 50px 20px 10px;
+        padding-top: 20px;
+        animation: anime 2s ease;
+        z-index: 99;
+    }
+
+    .icon-menu i{
+        font-size: 30px;
+        background-color:orange;
+        padding: 5px;
+        border-radius: 20px 10px 20px 10px;
+
+
+    }
+
+    .icon-close{
+        display: block;
+        margin-top: 20px;
+
+    }
+
+    .icon-close i{
+        font-size: 25px;
+        color: white;
+
+    }
+
+    
+
+   
+
+}
+
+@keyframes anime {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(
+            360deg
+        );
+    }
+}
 
 
 
