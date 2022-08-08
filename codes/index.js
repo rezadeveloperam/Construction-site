@@ -51,6 +51,6 @@ function setCounter(el){
       }
                
         el.textContent++
-    },10)
+    },15)
 
 }
