@@ -26,7 +26,7 @@ btnCloseNav.onclick = ()=>{
 }
 
 const counters = $.querySelectorAll('.num')
-const sectionCardContainer = $.querySelector('.sec4-container')
+const sectionCardContainer = $.querySelector('.sec4-card')
 
 let startCounter = false
 
